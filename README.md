@@ -8,8 +8,9 @@
 
 ## 👥 Members
 
-* Rhen (Lead Developer)
-* [Add your groupmates here]
+* Rhen-Rhen A. Lumbo (Lead Developer)
+* Justine James A. Abejuela
+* Mike Jaillie P. Ananca
 
 ---
 
@@ -20,8 +21,6 @@
 * 📅 Activity/Event Registration
 * 📊 Admin Dashboard
 * 💬 Contact Messages Management
-* ⭐ Favorite Messages Feature
-* 📧 Email Notifications (via Resend / PayMongo integration)
 * 📱 Responsive Design (Mobile-Friendly)
 
 ---
