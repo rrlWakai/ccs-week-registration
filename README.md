@@ -1,6 +1,6 @@
 # CCS Week Registration System
 
-## 📌 Project Title
+## Project Title
 
 **CCS Week Registration System**
 
@@ -14,24 +14,24 @@
 
 ---
 
-## 🚀 Features
+## Features
 
-* 📝 User Registration System
-* 👤 User Login & Authentication
-* 📅 Activity/Event Registration
-* 📊 Admin Dashboard
-* 💬 Contact Messages Management
-* 📱 Responsive Design (Mobile-Friendly)
-
----
-
-## 🌐 Deployment Link
-
-🔗 https://ccs-week-registration.infinityfree.me/
+*  User Registration System
+*  User Login & Authentication
+*  Activity/Event Registration
+*  Admin Dashboard
+*  Contact Messages Management
+*  Responsive Design (Mobile-Friendly)
 
 ---
 
-## 🛠️ Tech Stack
+##  Deployment Link
+
+https://ccs-week-registration.infinityfree.me/
+
+---
+
+##  Tech Stack
 
 * **Frontend:** HTML, CSS, JavaScript
 * **Backend:** PHP
@@ -41,7 +41,7 @@
 
 ---
 
-## 📂 Installation Guide
+##  Installation Guide
 
 1. Clone the repository:
 
@@ -70,21 +70,14 @@
      http://localhost/ccs-registration
      ```
 
----
 
-## 📸 Screenshots (Optional)
-
-*Add screenshots of your system here*
-
----
-
-## 📌 Notes
+##  Notes
 
 * Make sure your server (WAMP/XAMPP) is running
 * Configure API keys properly for PayMongo and email services
 
 ---
 
-## 📄 License
+##  License
 
 This project is for educational purposes only.
