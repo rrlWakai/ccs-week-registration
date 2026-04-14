@@ -1,5 +1,5 @@
 <?php
-$host = "https://ccs-week-registration.infinityfree.me/";
+$host = "sql112.infinityfree.com";
 $username = "if0_41584373";
 $password = "ZKAsVOjQ9OwK";
 $database = "ccs_week_db";
