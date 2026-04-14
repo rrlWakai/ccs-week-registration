@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CCS Week 2026</title>
-    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
@@ -37,14 +37,14 @@
                 <a href="#about" class="btn btn-outline">Learn More</a>
             </div>
         </div>
-        <img src="../assets/images/logo.jpg" class="hero-img" alt="CCS Week">
+        <img src="./assets/images/logo.jpg" class="hero-img" alt="CCS Week">
     </div>
 </section>
 
 <!-- ABOUT -->
 <section id="about" class="section section-alt">
     <div class="container grid-2">
-        <img src="../assets/images/about.jpg" class="hero-img" alt="About">
+        <img src="./assets/images/about.jpg" class="hero-img" alt="About">
         <div>
             <div class="section-tag"><i class="fa fa-info-circle"></i> About</div>
             <h2 style="text-align:left;">About the System</h2>
@@ -101,21 +101,21 @@
             <p>The team behind CCS Week Registration System.</p>
         </div>
         <div class="grid-3">
-            <div class="dev-card" style="background-image: url('../assets/images/dev1.jpg')">
+            <div class="dev-card" style="background-image: url('./assets/images/dev1.jpg')">
                 <div class="dev-initials">RL</div>
                 <div class="dev-content">
                     <h3>Rhen-Rhen A. Lumbo</h3>
                     <p><i class="fa fa-code" style="margin-right:5px;"></i>Full Stack Developer</p>
                 </div>
             </div>
-            <div class="dev-card" style="background-image: url('../assets/images/dev2.jpg')">
+            <div class="dev-card" style="background-image: url('./assets/images/dev2.jpg')">
                 <div class="dev-initials">JA</div>
                 <div class="dev-content">
                     <h3>Justine James A. Abejuela</h3>
                     <p><i class="fa fa-palette" style="margin-right:5px;"></i>Frontend Developer</p>
                 </div>
             </div>
-            <div class="dev-card" style="background-image: url('../assets/images/dev3.jpg')">
+            <div class="dev-card" style="background-image: url('./assets/images/dev3.jpg')">
                 <div class="dev-initials">MA</div>
                 <div class="dev-content">
                     <h3>Mike Jaillie P. Ananca</h3>

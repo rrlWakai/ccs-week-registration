@@ -17,7 +17,7 @@
 </div>
 
 <!-- MAIN -->
-<div class="container"   style="margin-top: 20px;">
+<div class="container" style="margin-top: 20px;">
 
     <div class="card form">
 
@@ -27,38 +27,52 @@
 
             <!-- NAME -->
             <div class="form-group" style="margin-top: 20px;">
-                <input type="text" name="name" placeholder="Full Name" required>
+                <label>Full Name</label>
+                <div class="input-wrapper">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="name" placeholder="Enter full name" required>
+                </div>
             </div>
 
             <!-- COURSE -->
             <div class="form-group">
-                <input type="text" name="course" placeholder="Course" required>
+                <label>Course</label>
+                <div class="input-wrapper">
+                    <i class="fa fa-graduation-cap"></i>
+                    <input type="text" name="course" placeholder="Enter course" required>
+                </div>
             </div>
 
             <!-- CATEGORY -->
             <div class="form-group">
+                <label>Category</label>
                 <select name="category" id="category" required>
                     <option value="">Select Category</option>
                     <?php
                     $categories = $conn->query("SELECT * FROM categories");
-                    while($cat = $categories->fetch_assoc()):
+
+                    if ($categories && $categories->num_rows > 0):
+                        while($cat = $categories->fetch_assoc()):
                     ?>
                     <option value="<?= $cat['id'] ?>">
                         <?= htmlspecialchars($cat['name']) ?>
                     </option>
-                    <?php endwhile; ?>
+                    <?php endwhile; else: ?>
+                        <option disabled>No categories available</option>
+                    <?php endif; ?>
                 </select>
             </div>
 
             <!-- ACTIVITY -->
             <div class="form-group">
+                <label>Activity</label>
                 <select name="activity" id="activity" required>
                     <option value="">Select Category First</option>
                 </select>
             </div>
 
             <!-- SUBMIT -->
-            <button type="submit" class="btn">
+            <button type="submit" class="btn" id="submitBtn">
                 <i class="fa fa-paper-plane"></i> Submit Registration
             </button>
 
@@ -77,9 +91,8 @@
         <button class="btn" onclick="closeModal()">Continue</button>
     </div>
 </div>
+
 <script src="../assets/script.js" defer></script>
-
-
 
 </body>
 </html>
